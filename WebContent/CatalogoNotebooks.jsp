@@ -19,7 +19,12 @@
 </head>
 <body>
 	<header>
-		
+		<nav class="navbar navbar-light bg-light">
+  			<a class="navbar-brand" href="index.html">Início</a>
+  			<a class="navbar-brand" href="AdicionarNotebook.jsp">Novo Notebook</a>
+  			<a class="navbar-brand" href="CatalogoNotebooks.jsp">Catálogo de Notebooks</a>
+  			<a class="navbar-brand" href="about.html">Sobre Nós</a>
+		</nav>
 	</header>
 	
 	<%	
@@ -27,14 +32,6 @@
 		
 		
 	%>
-	
-	<nav class="navbar navbar-light bg-light">
-  		
-  		
-  		<a class="navbar-brand" href="#">Navbar</a>
-  		
-  		
-	</nav>	
 	
 	<div class="card" style="width:225px; margin:5px;">
   		<img class="card-img-top" style="height:180px; width:180px; align-self:center;" src="img/dell g7.jpg" alt="notebook dell g7">

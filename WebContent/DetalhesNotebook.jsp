@@ -17,8 +17,16 @@
 </head>
 <body>
 	<header>
-		
+		<nav class="navbar navbar-light bg-light">
+  			<a class="navbar-brand" href="index.html">Início</a>
+  			<a class="navbar-brand" href="AdicionarNotebook.jsp">Novo Notebook</a>
+  			<a class="navbar-brand" href="CatalogoNotebooks.jsp">Catálogo de Notebooks</a>
+  			<a class="navbar-brand" href="about.html">Sobre Nós</a>
+		</nav>
 	</header>
+	
+	
+	
 
 	<%
 		

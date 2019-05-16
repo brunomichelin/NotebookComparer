@@ -17,34 +17,37 @@
 <body>
 	<header>
 		<nav class="navbar navbar-light bg-light">
-  			<a class="navbar-brand" href="index.html">In√≠cio</a>
+  			<a class="navbar-brand" href="index.html">InÌcio</a>
   			<a class="navbar-brand" href="AdicionarNotebook.jsp">Novo Notebook</a>
-  			<a class="navbar-brand" href="CatalogoNotebooks.jsp">Cat√°logo de Notebooks</a>
-  			<a class="navbar-brand" href="about.html">Sobre N√≥s</a>
+  			<a class="navbar-brand" href="CatalogoNotebooks.jsp">Cat·logo de Notebooks</a>
+  			<a class="navbar-brand" href="about.html">Sobre NÛs</a>
 		</nav>	
 	</header>
-		<div style="margin:5%;">
-			<div class="d-flex justify-content-center" style="margin:7%">
-				<h1>Notebooks Comparer</h1>
-			</div>
-			
-			<div class="d-flex justify-content-around">
-				<form method="get" action="/NotebookComparer/notebook">
-					<!-- <label>Pesquisar</label> -->
-					<input type="text" class="form-control" style="width:150%;margin-up:8%;margin-bottom:8%;margin-left:-20%;" placeholder="Pesquisar nome de notebook">
-					<input class="btn btn-info" style="margin-left:-20%;" name="Submit" value="Pesquisar" type="submit" required>
-				</form>
-			</div>
-			
-			<div>
-				<button class="btn btn-info" style="margin:3%" onClick="window.open('CatalogoNotebooks.jsp', '_self');">Cat√°logo de Notebooks</button>
-				<button class="btn btn-info" style="margin:3%" onClick="window.open('AdicionarNotebook.jsp', '_self');">Adicionar Notebook</button>
-			</div>
-		</div>
+
+	<div class="d-flex justify-content-around">
 	
-	
+		<form method="post" action="NotebookComparer/notebook" style="width:60%;" class="col-lg-1 col-offset-6 centered">
+		
+			<label style="margin-top:8%">Nome do Notebook</label>
+			<input style="margin-top:1%" type="text" class="form-control" placeholder="Nome do notebook">
+			
+			<label style="margin-top:2%">Processador</label>
+			<input style="margin-top:1%" type="text" class="form-control" placeholder="Processador do notebook">
+			
+			<label style="margin-top:2%">Nome do Notebook</label>
+			<input style="margin-top:1%" type="text" class="form-control" placeholder="Pesquisar nome de notebook">
+			
+			<label style="margin-top:2%">Nome do Notebook</label>
+			<input style="margin-top:1%" type="text" class="form-control" placeholder="Pesquisar nome de notebook">
+			
+			
+			<input style="margin-top:4%" class="btn btn-info" name="Submit" value="Adicionar" type="submit" required>
+			
+		</form>
+	</div>
 	
 	<footer>
+		
 	</footer>
 </body>
 </html>
