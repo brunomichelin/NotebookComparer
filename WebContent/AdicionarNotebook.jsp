@@ -26,7 +26,7 @@
 
 	<div class="d-flex justify-content-around">
 	
-		<form method="post" action="NotebookComparer/notebook" style="width:60%;" class="col-lg-1 col-offset-6 centered">
+		<form method="post" action="NotebookComparer/notebook" style="width:100%;" class="centered">
 		
 			<label style="margin-top:8%">Nome do Notebook</label>
 			<input style="margin-top:1%" type="text" class="form-control" placeholder="Nome do notebook">
@@ -34,11 +34,11 @@
 			<label style="margin-top:2%">Processador</label>
 			<input style="margin-top:1%" type="text" class="form-control" placeholder="Processador do notebook">
 			
-			<label style="margin-top:2%">Nome do Notebook</label>
-			<input style="margin-top:1%" type="text" class="form-control" placeholder="Pesquisar nome de notebook">
+			<label style="margin-top:2%">Placa Gráfica</label>
+			<input style="margin-top:1%" type="text" class="form-control" placeholder="Placa Gráfica">
 			
-			<label style="margin-top:2%">Nome do Notebook</label>
-			<input style="margin-top:1%" type="text" class="form-control" placeholder="Pesquisar nome de notebook">
+			<label style="margin-top:2%">Memória RAM</label>
+			<input style="margin-top:1%" type="text" class="form-control" placeholder="Memória RAM">
 			
 			
 			<input style="margin-top:4%" class="btn btn-info" name="Submit" value="Adicionar" type="submit" required>

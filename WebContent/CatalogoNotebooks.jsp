@@ -33,13 +33,37 @@
 		
 	%>
 	
-	<div class="card" style="width:225px; margin:5px;">
-  		<img class="card-img-top" style="height:180px; width:180px; align-self:center;" src="img/dell g7.jpg" alt="notebook dell g7">
-  		<div class="card-body">
-    		<h6 class="card-title">Dell G7-xxxx-yy</h6>
-    		<h5 class="card-text">R$3200,00</h5>
-  		</div>
-	</div>
+	<table>
+		<tr>
+			<td>
+				<div class="card" style="width:225px; margin:5px;" onclick="window.open('DetalhesNotebook.jsp?note=dell g7.jpg&nome=Dell G7-xx-yyyy&valor=3200','_self')">
+			  		<img class="card-img-top" style="height:180px; width:180px; align-self:center;" src="img/dell g7.jpg" alt="notebook dell g7">
+			  		<div class="card-body">
+			    		<h6 class="card-title">Dell G7-xxxx-yy</h6>
+			    		<h5 class="card-text">R$3200,00</h5>
+			  		</div>
+				</div>
+			</td>
+			<td>
+				<div class="card" style="width:225px; margin:5px;" onclick="window.open('DetalhesNotebook.jsp?note=acer-nitro5.jpg&nome=Acer Nitro 5-xx-yyyy&valor=3700','_self')">
+			  		<img class="card-img-top" style="height:180px; width:180px; align-self:center;" src="img/acer-nitro5.jpg" alt="notebook dell g7">
+			  		<div class="card-body">
+			    		<h6 class="card-title">Acer Nitro 5 xx-yyyy</h6>
+			    		<h5 class="card-text">R$3700,00</h5>
+			  		</div>
+				</div>
+			</td>
+			<td>
+				<div class="card" style="width:225px; margin:5px;" onclick="window.open('DetalhesNotebook.jsp?note=thinkPadX280.jpg&nome=ThinkPad X280&valor=4600','_self')">
+			  		<img class="card-img-top" style="height:180px; width:180px; align-self:center;" src="img/thinkPadX280.jpg" alt="notebook dell g7">
+			  		<div class="card-body">
+			    		<h6 class="card-title">Lenovo thinkPadX280</h6>
+			    		<h5 class="card-text">R$4600,00</h5>
+			  		</div>
+				</div>
+			</td>
+		</tr>
+	</table>
 	
 	<footer>
 		

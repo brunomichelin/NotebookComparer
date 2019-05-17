@@ -34,12 +34,13 @@
 		
 	%>
 
-	<div class="card" style="width:225px; margin:5px;">
+	<div class="d-flex" style="margin:5px;">
 		
-		<img class="card-img-top" style="height:400px; width:400px; align-self:start;" src="img/dell g7.jpg" alt="notebook dell g7">
-  		<div class="card-body" style="float:right;">
-    		<h4 class="card-title">Dell G7-xxxx-yy</h4>
-    		<h5 class="card-text">R$3200,00</h5>
+		<img class="card-img-top" style="height:400px; width:400px; align-self:start;" src="img/<%= request.getParameter("note") %>" alt="notebook dell g7">
+  		
+  		<div class="card-body" style="margin-top:15%;margin-left:5%">
+    		<h4 class="card-title"><%= request.getParameter("nome") %></h4>
+    		<h5 class="card-text">R$<%= request.getParameter("valor") %>,00</h5>
   		</div>
 	</div>
 	
@@ -47,12 +48,12 @@
 		
 		<table>
 			<thead>
-				<tr>
-					<th>
-						Propriedade:
+				<tr style="padding:15%">
+					<th style="width:150px;">
+						Característica
 					</th>
 					<th>
-						Valor:
+						Descrição
 					</th>
 				</tr>
 			</thead>
@@ -60,15 +61,15 @@
 			<tbody>
 				<tr>
 					<td>
-						Nome:
+						Nome
 					</td>
 					<td>
-						
+						<%= request.getParameter("nome") %>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						Processador:
+						Processador
 					</td>
 					<td>
 						
